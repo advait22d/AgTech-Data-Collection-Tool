@@ -1,0 +1,10 @@
+data_sources:
+  industry_sales_trends:
+    api_url: 'https://api.ers.usda.gov/data/arms/surveydata?api_key=0OYbmWUiUhblO1v27fGdTOUKU5aTKLoNnctc9xXi'
+    api_key: '0OYbmWUiUhblO1v27fGdTOUKU5aTKLoNnctc9xXi'
+    params:
+      year: '2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023'
+      variable: 'evfertc'
+      state: 'all'
+  economic_indicators:
+    url: 'https://tradingeconomics.com/united-states/indicators'
